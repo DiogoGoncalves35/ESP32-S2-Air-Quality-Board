@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "1.8_TFT")(type "KiCad")(uri "${KIPRJMOD}/Libraries/1.8 TFT Display/1.8_TFT.kicad_sym")(options "")(descr ""))
+  (lib (name "AJ38")(type "KiCad")(uri "${KIPRJMOD}/Libraries/AJ38/AJ38.kicad_sym")(options "")(descr ""))
+  (lib (name "ENS160")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ENS160/ENS160.kicad_sym")(options "")(descr ""))
+  (lib (name "Wemos_S2_Mini")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Wemos S2 Mini/Wemos_S2_Mini.kicad_sym")(options "")(descr ""))
+)
