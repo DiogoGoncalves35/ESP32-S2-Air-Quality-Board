@@ -22,7 +22,7 @@ The microcontroler sends TVOC, eCO2 and AQI values, and also a "On" message. Val
 
 ### Schematic
 
-The [schematic](/Images/HA-MQTT.png) is designed arround ESP32-S2 Mini Board, LCD connects via SPI and ENS160 with I²C. Board can be powered with 5V from USB connector or via ESP32-S2 Mini Board USB connector. The AJ38 module step downs the voltage to 3.3V, and powers the components. A buzzer was added but at the moment is not in use.
+The [schematic](/PCB/Schematic.pdf) is designed arround ESP32-S2 Mini Board, LCD connects via SPI and ENS160 with I²C. Board can be powered with 5V from USB connector or via ESP32-S2 Mini Board USB connector. The AJ38 module step downs the voltage to 3.3V, and powers the components. A buzzer was added but at the moment is not in use.
 
 <img src="/Images/Schematic.png">
 
