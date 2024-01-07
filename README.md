@@ -38,7 +38,7 @@ The [schematic](/PCB/Schematic.pdf) is designed arround ESP32-S2 Mini Board, LCD
 
 ### Code
 
-Every line of [code](/Code/Air Quality Monitor) contains a commentary. Some libraries need a few changes.
+Every line of [code]("/Code/Air Quality Monitor") contains a commentary. Some libraries need a few changes.
 
 Configuration for User_Setup.h (TFT_eSPI Library)
 ```arduino
