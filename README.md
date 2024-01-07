@@ -30,7 +30,7 @@ The [schematic](/PCB/Schematic.pdf) is designed arround ESP32-S2 Mini Board, LCD
 
 ### PCB
 
-[This PCB](/Images/HA-MQTT.png) has a very simple design, it's a 1.6 mm board with 2 copper layers, both connect to GND. Next version should have a better design, the microcontroler must be at one edge, or the GND pour needs to be removed under, it's a good practice when there is an antenna.
+[This PCB](/PCB) has a very simple design, it's a 1.6 mm board with 2 copper layers, both connect to GND. Next version should have a better design, the microcontroler must be at one edge, or the GND pour needs to be removed under, it's a good practice when there is an antenna.
 
 <img src="/Images/PCB.png">
 
@@ -38,7 +38,7 @@ The [schematic](/PCB/Schematic.pdf) is designed arround ESP32-S2 Mini Board, LCD
 
 ### Code
 
-Every line of [code](/Images/HA-MQTT.png) contains a commentary. Some libraries need a few changes.
+Every line of [code](/Code/Air Quality Monitor) contains a commentary. Some libraries need a few changes.
 
 Configuration for User_Setup.h (TFT_eSPI Library)
 ```arduino
