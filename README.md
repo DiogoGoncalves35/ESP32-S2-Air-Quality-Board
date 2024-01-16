@@ -17,7 +17,7 @@ At the moment the LVGL interface only shows eCO2 and AQI values, there is no inf
 ### Home Assistant
 
 It supports Home Assistant via HA MQTT Auto Discovery,  there is no need to integrate this device via web interface or yaml code, it's a faster solution to integrate devices. 
-The microcontroler sends TVOC, eCO2 and AQI values, and also a "On" message. Values are send every 15 seconds and if there is no value recevied 35 seconds after the last, HA assumes that the device is offline.
+The microcontroller sends TVOC, eCO2 and AQI values, and also a "On" message. Values are send every 15 seconds and if there is no value recevied 35 seconds after the last, HA assumes that the device is offline.
 
 <img src="/Images/HA-MQTT.png">
 
@@ -33,7 +33,7 @@ The [schematic](/PCB/Schematic.pdf) is designed arround ESP32-S2 Mini Board, LCD
 
 ### PCB
 
-[This PCB](/PCB) has a very simple design, it's a 1.6 mm board with 2 copper layers, both connect to GND. Next version should have a better design, the microcontroler must be at one edge, or the GND pour needs to be removed under, it's a good practice when there is an antenna.
+[This PCB](/PCB) has a very simple design, it's a 1.6 mm board with 2 copper layers, both connect to GND. Next version should have a better design, the microcontroller must be at one edge, or the GND pour needs to be removed under, it's a good practice when there is an antenna.
 
 <img src="/Images/PCB.png">
 
